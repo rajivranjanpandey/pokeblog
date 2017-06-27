@@ -1,0 +1,204 @@
+@font-face
+
+{
+
+font-family:"Pocket Monk";
+
+src: url('Pocket Monk.otf') format('opentype');
+
+}
+@font-face
+
+{
+
+font-family:"Forte";
+
+src: url('FORTE.ttf') format('truetype');
+
+}
+
+
+@font-face
+
+{
+
+font-family:"Segoe Print";
+
+src: url('Segoe Print.ttf') format('truetype');
+
+}
+
+
+body{
+background-repeat:no-repeat;
+background-size:cover;
+background-image:url('newbg.jpg');
+}
+/*@media only screen and (min-device-width: 1200px) {
+    body {
+	//background-size:cover; 
+        background-image: url('newbg.jpg'); 
+    }
+}*/
+#navbar
+{
+//position:absolute;
+//z-index:1;
+//margin-top:130px;
+//display:inline;
+//margin-left:25px;
+}
+#navigation
+{
+width:850px;
+height:50px;
+border:1px solid black;
+background-color:black;
+opacity:0.9;
+text-align:center;
+margin-left:auto;
+margin-right:auto;
+text-decoration:none;
+}
+#contents
+{
+color:yellow;
+text-shadow:
+-1px -1px 0 red,
+    1px -1px 0 red,
+    -1px 1px 0 red,
+    1px 1px 0 red;
+
+font-family:Forte;
+font-size:20px;
+}
+marquee
+{
+font-weight:bold;
+
+color:white;
+
+font-family:Segoe Print;
+
+font-size: 25;
+
+text-shadow:
+    -1px -1px 0 #0650FD,
+    1px -1px 0 #0650FD,
+    -1px 1px 0 #0650FD,
+    1px 1px 0 #0650FD;
+
+}
+
+#head
+{
+color:#FDAF06;
+
+font-size:50px;
+
+text-align:center;
+font-family:Pocket Monk;
+
+
+text-shadow:
+    -2px -2px 0 #0650FD,
+    2px -2px 0 #0650FD,
+    -2px 2px 0 #0650FD,
+    2px 2px 0 #0650FD;
+
+margin-top:10px;
+padding-bottom:10px;
+}
+
+#contents:hover
+{
+font-weight:bold;
+text-decoration:none;
+color:green;
+}
+#notice
+{
+margin-left:auto;
+margin-right:auto;
+height:350px;
+width:850px;
+background-color:black;
+opacity:0.9;
+//border:1px solid red;
+text-align:center;
+margin-top:10px;
+}
+#heading
+{
+font-size:25px;
+color:red;
+font-family:Algerian;
+text-align:center;
+}
+#body
+{
+color:pink;
+font-size:16px;
+//text-align:center;
+padding-top:20px;
+padding-left:5px;
+padding-right:5px;
+}
+#current
+{
+color:red;
+font-size:18px;
+list-style-type:none;
+}
+#ASH
+{
+font-family:Monaco;
+color:yellow;
+font-size:17px;
+list-style-type:none;
+}
+span{color:08FAFA;}
+#social
+{
+position:absolute;
+//display:inline;
+list-style-type:none;
+}
+#contact
+{
+font-size:15px;
+opacity:0.2;
+}
+#sl
+{
+display:inline;
+}
+#fb
+{
+margin-bottom:-20px;
+margin-left:1px;
+}
+#tweet
+{
+width:75px;
+height:28px;
+margin-bottom:-5px;
+margin-left:-23px;
+}
+#insta
+{
+width:40px;
+height:40px;
+}
+#insta1
+{
+width:98px;
+height:40px;
+margin-bottom:-7px;
+}
+#insta2
+{
+width:75px;
+height:30px;
+margin-bottom:-5px;
+}

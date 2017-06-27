@@ -1,0 +1,324 @@
+p
+
+{
+color:#FDAF06;
+
+font-size:50px;
+
+text-align:center;
+font-family:Pocket Monk;
+
+
+text-shadow:
+    -2px -2px 0 #0650FD,
+    2px -2px 0 #0650FD,
+    -2px 2px 0 #0650FD,
+    2px 2px 0 #0650FD;
+
+}
+
+@font-face
+
+{
+
+font-family:"Pocket Monk";
+
+src: url('Pocket Monk.otf') format('opentype');
+
+}
+
+@font-face
+
+{
+
+font-family:"Segoe Print";
+
+src: url('Segoe Print.ttf') format('truetype');
+
+}
+p1{text-align:center;}
+
+body
+{background-color:black;}
+
+#row2
+
+{
+bottom: 35px;
+}
+
+#row3
+{
+bottom:-215px;
+}
+
+#row4
+{
+bottom:-465px;
+}
+
+#row5
+{
+bottom:-715px;
+}
+#row6
+{
+bottom:-965px;
+}
+
+#row7
+{
+bottom:-1215px;
+}
+
+
+
+a
+
+{
+
+text-decoration:none;
+
+text-align:center;
+}
+
+a:hover
+
+{
+
+text-decoration:none;
+
+font-weight:bold;
+}
+
+#t
+
+{
+
+color:red;
+
+font-family:Arial;
+
+text-shadow:
+    0.5px 0.5px 0 #ffffff,
+    0.5px 0.5px 0 #ffffff,
+    0.5px 0.5px 0 #ffffff,
+    0.5px 0.5px 0 #ffffff;
+
+text-align: center;
+
+font-size:22px;
+
+margin-left:auto;
+
+
+}
+
+#s
+
+{
+
+font-size:20px;
+
+display:inline;
+
+}
+
+
+
+p2
+
+{
+
+font-family:Segoe Print;
+
+font-size:20px;
+
+color:white;
+
+text-shadow:
+    -1px -1px 0 #0650FD,
+    1px -1px 0 #0650FD,
+    -1px 1px 0 #0650FD,
+    1px 1px 0 #0650FD;
+
+padding-bottom:12px;
+
+}
+
+td
+
+{
+
+width:225px;
+
+height:225px;
+
+border:1px solid red;
+
+text-align:center;
+
+}
+
+div
+{margin-left:35px;}
+
+table
+
+{
+
+border-collapse: separate;
+
+border-spacing: 20px;
+
+}
+
+#r
+
+{
+
+text-align:center;
+
+font-family:Forte;
+
+font-size:20px;
+
+color:white;
+
+text-shadow:
+    -1px -1px 0 #0650FD,
+    1px -1px 0 #0650FD,
+    -1px 1px 0 #0650FD,
+    1px 1px 0 #0650FD;
+margin-left:auto;
+
+
+}
+
+#qr
+
+{
+
+
+font-family: futura;
+      
+font-style: italic;
+      
+      
+width:100%;
+      
+      
+margin: 0 auto;
+
+text-align: center;
+      
+      
+color:#313131;
+      
+font-size:25px;
+      
+font-weight: bold;
+           
+-webkit-animation:colorchange 20s infinite alternate;
+
+}
+
+span{color:08FAFA;}
+#social
+{
+position:absolute;
+//display:inline;
+list-style-type:none;
+margin-top:-125px;
+}
+#contact
+{
+font-size:15px;
+opacity:0.2;
+}
+#sl
+{
+display:inline;
+}
+#fb
+{
+margin-bottom:-20px;
+margin-left:1px;
+}
+#tweet
+{
+width:75px;
+height:28px;
+margin-bottom:-5px;
+margin-left:-23px;
+}
+#insta
+{
+width:40px;
+height:40px;
+}
+#insta1
+{
+width:98px;
+height:40px;
+margin-bottom:-7px;
+}
+#insta2
+{
+width:75px;
+height:30px;
+margin-bottom:-5px;
+}
+        
+@-webkit-keyframes colorchange 
+{
+      
+0% 
+{
+ color: blue;}
+
+20% 
+{
+ color: #1abc9c;
+}
+      
+      
+30% 
+{
+color: #d35400;
+}
+      
+      
+40% 
+{
+color: white;
+}
+      
+      
+50% 
+{
+color: #34495e;}
+
+60% {
+color: blue;
+}
+      
+      
+70% {
+color: #2980b9;
+}
+      
+80% {
+color: #f1c40f;}
+      
+      
+90% {
+color: #2980b9;
+}
+      
+      
+100% {
+color: pink;
+}
+
+}

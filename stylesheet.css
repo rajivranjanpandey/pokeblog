@@ -1,0 +1,129 @@
+a:hover
+{
+color:violet;
+text-shadow:
+-2px -2px 0 #EFFA0F
+}
+
+a
+{
+text-decoration:none;
+font-family:Algerian;
+font-size:25px;
+color:yellow;
+padding-left:10px;
+border-bottom:2px solid violet;
+}
+.navbar
+{
+margin-top:30px;
+}
+
+p
+{
+color:red;
+font-size:40px;
+text-align:center;
+text-shadow:
+    -2px -2px 0 #EFFA0F,
+    2px -2px 0 #EFFA0F,
+    -2px 2px 0 #EFFA0F,
+    2px 2px 0 #EFFA0F; 
+
+}
+
+body
+{
+background-repeat:no repeat;
+background-size:cover;
+
+}
+
+marquee
+{
+color:pink;
+font-size:40px;
+font-family:Arial;
+}
+
+/* Tablet Landscape */
+
+
+@media screen and (max-width: 1060px) {#primary { width:67%; }
+
+#secondary { width:30%; margin-left:3%;} 
+
+}
+
+
+/* Tabled Portrait */
+
+@media screen and (max-width: 768px) {
+
+#primary { width:100%; }
+
+#secondary { width:100%; margin:0; border:none; }
+
+}
+
+
+.notice
+{
+z-index:1;
+width:900px;
+height:300px;
+//display:inline;
+//position:absolute;
+margin-left:auto;
+margin-right:auto;
+//margin-bottom:250px;
+float:top;
+background-color:white;
+opacity:0.6;
+border:2px soild black;
+font-size:18px;
+color:black;
+
+font-weight:bold;
+//text-shadow:
+    -0.3px -0px 0 #FFFFFF,
+    0.3px -0px 0 #FFFFFF,
+    -0.3px 0px 0 #FFFFFF,
+    0.3px 0px 0 #FFFFFF; 
+
+}
+.video
+{
+float:right;
+display:inline;
+}
+h1
+
+{
+font-size:20px;
+text-align:center;
+text-decoration:underline;
+color:red;
+}
+#sidecontent
+{
+height:600px;
+width:200px;
+margin-left:2px;
+float:left;
+}
+#rightcontent
+{
+z-index:1;
+height:220px;
+width:260px;
+//margin-right:5px;
+float:right;
+position:relative;
+top:0px;
+right:0px;
+}
+#inline
+{
+display:inline;
+}
